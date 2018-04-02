@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+a, a:link, a:visited, a:hover, a:active{text-decoration:none}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+	background-color: #FFF;
+	background-repeat:  ;
+	background-position: top center;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear {clear:both;}
+
+
+/*menu*/
+#linksite {
+float:right;
+margin-top:85px;
+}
+#linksite a{
+ color:#666;
+ opacity:0.8;
+}
+#linksite a:hover{
+ color:#666;
+ opacity:1;
+}
+#menus {
+	height:250px;
+	width:150px;
+	position:absolute;
+	z-index:5;
+	right:20px;
+	top:20px;
+	background:url(../img/bg_menu_slc.png) repeat-x #d6d5d5 ;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#menus_titulo { 
+	background:url(../img/bg-sidebar-1.png) repeat-x #d6d5d5 ;
+	margin-top:20px;
+	margin-bottom:30px;
+	color:#fff;
+	padding:10px;
+	text-align:center;
+	font-size:14px;
+	
+}
+
+/*Paginas internas*/
+#pagecenter {
+	width:940px;
+	height:auto;
+	margin: 0 auto;
+	margin-top:20px;
+	background: #fff;
+	padding-bottom:30px;
+}
+#i_top {
+	width:100%;
+	height:150px;
+	
+}
+#i_top_util {
+	height:150px;
+	margin: 0 auto;
+	width:800px;
+	background: #FFF;
+}
+#logo {
+	height:150px;
+	width:100%;
+	background:url(../img/topo.png) no-repeat center center;
+	float:left;
+}
+#i_mid {
+	width:100%;
+	height:auto;
+	margin-bottom:10px;
+}
+#i_mid_util {
+	height:533px;
+	margin: 0 auto;
+	width:800px;
+	position:relative;
+}
+
+#mid_base {
+	height:533px;
+	margin: 0 auto;
+	width:800px;
+	position:absolute;
+	
+}
+#mid_chao {
+	height:533px;
+	margin: 0 auto;
+	width:800px;
+	position:absolute;
+	background:url(../img/none.png);
+	z-index:1;
+	-webkit-transition:	all 2s linear;
+	-moz-transition: all 2s linear;
+	-o-transition: all 2s linear;
+	transition: all 2s linear;
+}
+#mid_parede{
+	height:533px;
+	margin: 0 auto;
+	width:800px;
+	position:absolute;
+	background:url(../img/none.png);
+	z-index:2;
+	-webkit-transition:	all 2s linear;
+	-moz-transition: all 2s linear;
+	-o-transition: all 2s linear;
+	transition: all 2s linear;
+}
+#mid_bancada {
+	height:533px;
+	margin: 0 auto;
+	width:800px;
+	position:absolute;
+	background:url(../img/none.png);
+	z-index:3;
+	-webkit-transition:	all 2s linear;
+	-moz-transition: all 2s linear;
+	-o-transition: all 2s linear;
+	transition: all 2s linear;
+}
+.copyright {
+padding-top: 10px;
+text-align: center;
+font-size: 10px;
+}
+select {
+border-radius: 10px; /*Padrão*/
+-moz-border-radius: 10px; /*Firefox*/
+-webkit-border-radius: 10px; /*Web Kit*/
+margin-bottom:20px;
+margin-left:25px;
+width:100px;
+}
+#menus p {
+	text-align:center;
+	font-size:10px;
+}
+h2.widgettitle {
+color: #fff;
+display: block;
+background: #235C31 url("../images/barracaju.png") no-repeat center right;
+padding: 10px 15px 10px 15px;
+font-family: "Oswald";
+font-size: 16px;
+text-transform: uppercase;
+margin: 0;
+}
+a {
+text-decoration: none;
+color: #fff
+}
